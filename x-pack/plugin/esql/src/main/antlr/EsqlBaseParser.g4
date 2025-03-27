@@ -62,7 +62,7 @@ processingCommand
     | {this.isDevVersion()}? insistCommand
     | {this.isDevVersion()}? forkCommand
     | {this.isDevVersion()}? rrfCommand
-    | {this.isDevVersion()}? randomSampleCommand
+    | {this.isDevVersion()}? sampleCommand
     ;
 
 whereCommand
@@ -290,6 +290,6 @@ rrfCommand
    : DEV_RRF
    ;
 
-randomSampleCommand
-    : DEV_RANDOM_SAMPLE probability=decimalValue seed=integerValue?
+sampleCommand
+    : DEV_SAMPLE probability=decimalValue seed=integerValue?
     ;

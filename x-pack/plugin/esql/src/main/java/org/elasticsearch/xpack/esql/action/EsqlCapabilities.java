@@ -940,9 +940,9 @@ public class EsqlCapabilities {
         MAKE_NUMBER_OF_CHANNELS_CONSISTENT_WITH_LAYOUT,
 
         /**
-         * Support for the RANDOM_SAMPLE command
+         * Support for the SAMPLE command
          */
-        RANDOM_SAMPLE(Build.current().isSnapshot());
+        SAMPLE(Build.current().isSnapshot());
 
         private final boolean enabled;
 

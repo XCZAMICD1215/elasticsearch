@@ -155,7 +155,7 @@ SORT
 STATS
 WHERE
 DEV_INLINESTATS
-DEV_RANDOM_SAMPLE
+DEV_SAMPLE
 FROM
 DEV_METRICS
 DEV_FORK
@@ -335,7 +335,7 @@ forkSubQuery
 forkSubQueryCommand
 forkSubQueryProcessingCommand
 rrfCommand
-randomSampleCommand
+sampleCommand
 booleanExpression
 regexBooleanExpression
 matchBooleanExpression
